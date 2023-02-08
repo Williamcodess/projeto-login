@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media all and (max-width: 768px){
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background: darkcyan url(../imagens/pexels-aleksandar-pasaric-2603464.jp) left center no-repeat fixed;
+    }
+
+    main{
+        position: relative;
+        margin: auto;
+        margin-top: 50px;
+        padding: 10px;
+        height: 550px;
+        width: 280px;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    #imagem{
+        
+        margin: -10px;
+        height: 50%;
+        width:107.5%;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    main > article > h1{
+        text-align: center;
+        padding: 10px;
+    }
+
+    main > article > p{
+        line-height: 1.5em;
+    }
+
+    main > article > div{
+        text-align: center;
+    }
+
+    article > div{
+        padding: 5px;
+    }
+
+    .efeito{
+        background-color: purple;
+        padding: 10px;
+        margin-bottom: 5px;
+        width: 90%;
+        text-align: right;
+    }
+}
