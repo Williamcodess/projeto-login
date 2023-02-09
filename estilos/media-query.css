@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoints
+-----------------------------
+Pequenas telas: até 600px
+Celulares: entre 600px e 768px
+Tablet: entre 768px e 992px
+Desktop: 992px e 1200px
+Tekas Grandes: acima de 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    section#login{
+        width: 85vw;
+    }
+    section#login > div#imagem{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px){
+    body{
+        position: relative;
+    }
+
+    #fundo{
+        position: absolute;
+        background: var(--cor01) url(../imagens/pexels-mathias-reding-4397217.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 43vw;
+        box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.555);
+    }
+
+    section#login{
+        position: absolute;
+        left: 71.5%;
+        height: 50vh;
+        width: 55vw;
+    }
+
+    section#login > div#imagem{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    body{
+        position: relative;
+    }
+
+    #fundo{
+        position: absolute;
+        background: var(--cor01) url(../imagens/pexels-mathias-reding-4397217.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 100vh;
+        width: 50vw;
+        box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.555);
+    }
+
+    section#login{
+        position: absolute;
+        left: 75.2%;
+        height: 50vh;
+        width: 48vw;
+    }
+
+    section#login > div#imagem{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 60%;
+    }
+}
