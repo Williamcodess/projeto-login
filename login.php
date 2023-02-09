@@ -1,0 +1,1 @@
+Aguarde as próximas atualizações
