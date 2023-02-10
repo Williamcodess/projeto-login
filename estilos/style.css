@@ -67,11 +67,28 @@ section#login > #formulario > p{
 }
 
 
-form > div.campo{
-    color: white;
+div.campo{
     margin: 5px 0px;
     height: 40px;
+    border:1px solid var(--cor01);
+    border-radius: 5px;
     background-color: var(--cor01);
+}
+
+div.campo> input{
+    height: 95%;
+    width: 82%;
+    transform: translateY(-5.5px);
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: var(--cor02);
+}
+
+div.campo>label>span{
+    color: white;
+    margin-left: 2px;
+    width: 15%;
+    font-size: 2em;
 }
 
 form > div > input[type=submit]{

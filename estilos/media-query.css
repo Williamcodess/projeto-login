@@ -113,4 +113,13 @@ Tekas Grandes: acima de 1200px
     section#login > #formulario > p{
         font-size: 1.4em;
     }
+
+    div.campo>input{
+        width: 100%;
+    }
+
+    div.campo>label>span{
+        width: 15%;
+        background-color:black;
+    }
 }
