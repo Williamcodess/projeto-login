@@ -23,6 +23,14 @@ Tekas Grandes: acima de 1200px
         float: right;
         width: 60%;
     }
+
+    section#login > #formulario > h1{
+        font-size: 1.8em;
+    }
+
+    section#login > #formulario > p{
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width:1200px){
@@ -56,6 +64,14 @@ Tekas Grandes: acima de 1200px
         float: right;
         width: 60%;
     }
+
+    section#login > #formulario > h1{
+        font-size: 1.8em;
+    }
+
+    section#login > #formulario > p{
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width:1200px){
@@ -88,5 +104,13 @@ Tekas Grandes: acima de 1200px
     section#login > div#formulario{
         float: right;
         width: 60%;
+    }
+
+    section#login > #formulario > h1{
+        font-size: 2em;
+    }
+
+    section#login > #formulario > p{
+        font-size: 1.4em;
     }
 }
