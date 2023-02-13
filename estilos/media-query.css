@@ -10,6 +10,9 @@ Tekas Grandes: acima de 1200px
 */
 
 @media screen and (min-width:768px) and (max-width:992px) {
+    div.campo> input{
+        width: 83%;
+    }
     section#login{
         width: 85vw;
     }
@@ -45,6 +48,10 @@ Tekas Grandes: acima de 1200px
         height: 100vh;
         width: 43vw;
         box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.555);
+    }
+
+    div.campo> input{
+        width: 82.5%;
     }
 
     section#login{
@@ -88,6 +95,10 @@ Tekas Grandes: acima de 1200px
         box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.555);
     }
 
+    div.campo> input{
+        width: 83%;
+    }
+
     section#login{
         position: absolute;
         left: 75.2%;
@@ -112,14 +123,5 @@ Tekas Grandes: acima de 1200px
 
     section#login > #formulario > p{
         font-size: 1.4em;
-    }
-
-    div.campo>input{
-        width: 100%;
-    }
-
-    div.campo>label>span{
-        width: 15%;
-        background-color:black;
     }
 }
